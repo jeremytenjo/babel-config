@@ -9,7 +9,6 @@
   "author": "Jeremy Tenjo <tenjojeremy@gmail.com>",
   "dependencies": {
     "@babel/core": "^7.5.0",
-    "@babel/plugin-proposal-decorators": "^7.3.0",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-throw-expressions": "^7.2.0",
     "@babel/plugin-transform-modules-commonjs": "^7.5.0",

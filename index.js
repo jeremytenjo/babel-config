@@ -11,7 +11,7 @@ module.exports = {
   ],
   env: {
     production: {
-      plugins: [require('transform-react-remove-prop-types')]
+      plugins: [require('babel-plugin-transform-react-remove-prop-types')]
     }
   }
 }
