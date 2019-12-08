@@ -1,7 +1,7 @@
 {
   "name": "@tenjojeremy/babel-config",
   "description": "Global Babel config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "main": "index.js",
   "scripts": {
     "deploy": "yarn publish --minor && gpush"
