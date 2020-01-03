@@ -1,5 +1,13 @@
 module.exports = {
-  presets: [require('@babel/preset-env'), require('@babel/preset-react')],
+  presets: [
+    require('@babel/preset-env'),
+    {
+      targets: {
+        esmodules: true
+      }
+    },
+    require('@babel/preset-react')
+  ],
   plugins: [
     require('react-hot-loader/babel'),
     require('@babel/plugin-transform-regenerator'),
