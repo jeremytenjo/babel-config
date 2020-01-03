@@ -3,6 +3,7 @@ module.exports = {
     [
       require('@babel/preset-env'),
       {
+        targets: 'defaults, not ie <= 11, not edge > 0, not IE_Mob 11',
         modules: false
       }
     ],
