@@ -1,9 +1,7 @@
-# Babel Config
-
-## Installation
+#### Installation
 
 ```sh
-yarn add @tenjojeremy/babel-config
+npm i @tenjojeremy/babel-config
 ```
 
 Create `.babelrc` to root with:
